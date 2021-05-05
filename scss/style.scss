@@ -337,3 +337,27 @@ img {
     }
   }
 }
+
+// WORK SECTION
+.work {
+  text-align: center;
+
+  &__container {
+    row-gap: 2rem;
+  }
+
+  &__img {
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    img {
+      transition: 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
