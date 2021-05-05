@@ -60,7 +60,7 @@ body {
   margin: $header-height 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: $first-color;
+  color: $second-color;
 }
 
 ul {
@@ -192,4 +192,56 @@ img {
   left: 0;
   right: 0;
   background-color: $first-color;
+}
+
+// HOME SECION
+.home {
+  height: calc(100vh - 3rem);
+  row-gap: 1rem;
+
+  &__data {
+    align-self: center;
+  }
+
+  &__title {
+    font-size: var(--big-font-size);
+    margin-bottom: $margin-5;
+
+    &-color {
+      color: $first-color;
+    }
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: column;
+
+    &-icon {
+      width: max-content;
+      margin-bottom: $margin-2;
+      font-size: 1.5rem;
+      color: $second-color;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    right: $margin-2;
+    bottom: 0;
+    width: 295px;
+  }
+}
+
+// GLOBAL BUTTON
+.button {
+  display: inline-block;
+  background-color: $first-color;
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  font-weight: $font-semibold;
+  border-radius: 0.5rem;
+
+  &:hover {
+    box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  }
 }
