@@ -245,3 +245,24 @@ img {
     box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
   }
 }
+
+// ABOUT SECTION
+.about {
+  &__container {
+    row-gap: 2rem;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-bottom: $margin-2;
+  }
+
+  &__img {
+    justify-self: center;
+
+    img {
+      width: 200px;
+      border-radius: 0.5rem;
+    }
+  }
+}
