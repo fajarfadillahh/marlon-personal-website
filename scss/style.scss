@@ -388,3 +388,27 @@ img {
     resize: vertical;
   }
 }
+
+// FOOTER SECTION
+.footer {
+  background-color: $second-color;
+  color: #fff;
+  font-weight: $font-semibold;
+  text-align: center;
+  padding: 2rem 0;
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: $margin-4;
+  }
+
+  &__social {
+    margin-bottom: $margin-4;
+
+    &-icon {
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 0 $margin-1;
+    }
+  }
+}
